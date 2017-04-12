@@ -69,7 +69,98 @@ remove_adjacent
  OK  got: [2, 3] expected: [2, 3]
  OK  got: [] expected: []
 linear_merge
-  X  got: ['zz', 'xx', 'aa', 'bb', 'cc'] expected: ['aa', 'bb', 'cc', 'xx', 'zz']
-  X  got: ['xx', 'aa', 'bb', 'cc', 'zz'] expected: ['aa', 'bb', 'cc', 'xx', 'zz']
-  X  got: ['bb', 'bb', 'aa', 'aa', 'aa'] expected: ['aa', 'aa', 'aa', 'bb', 'bb']
+  OK  got: ['aa', 'bb', 'cc', 'xx', 'zz'] expected: ['aa', 'bb', 'cc', 'xx', 'zz']
+  OK  got: ['aa', 'bb', 'cc', 'xx', 'zz'] expected: ['aa', 'bb', 'cc', 'xx', 'zz']
+  OK  got: ['aa', 'aa', 'aa', 'bb', 'bb'] expected: ['aa', 'aa', 'aa', 'bb', 'bb']
+>>> 
+
+Lab2.py
+Python 3.5.0 (v3.5.0:374f501f4567, Sep 13 2015, 02:16:59) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+=========== RESTART: C:/Users/student.INFORMATYKA/Desktop/testy.py ===========
+>>> helloWorld()
+Hello, World!
+>>> ticTac()
+   |  |   
+ --------
+   |  |   
+ --------
+   |  |  
+>>> superTicTac()
+  |  |  H  |  |  H  |  |
+--+--+--H--+--+--H--+--+--
+  |  |  H  |  |  H  |  |
+--+--+--H--+--+--H--+--+--
+  |  |  H  |  |  H  |  |
+========+========+========
+  |  |  H  |  |  H  |  |
+--+--+--H--+--+--H--+--+--
+  |  |  H  |  |  H  |  |
+--+--+--H--+--+--H--+--+--
+  |  |  H  |  |  H  |  |
+========+========+========
+  |  |  H  |  |  H  |  |
+--+--+--H--+--+--H--+--+--
+  |  |  H  |  |  H  |  |
+--+--+--H--+--+--H--+--+--
+  |  |  H  |  |  H  |  |  
+>>> fizz()
+234168
+>>> collatz(13)
+10
+>>> converter()
+Temperatura F? 212
+100.0 stopni Celsjusza
+>>> lists()
+[1, 0, 0]
+['a', '', '']
+[[1], [1], [1]]
+>>> lists2()
+[1, 0, 0]
+['a', '', '']
+[[1], [], []]
+>>> gcd(8,32)
+8
+>>> flip_dict({"CA": "US", "NY": "US", "ON": "CA"})
+{'CA': ['ON'], 'US': ['CA', 'NY']}
+>>> comprehensions_read()
+[None, None, None]
+[[3, 2, 1, 12], ['a', 'b', 'c', 'aaaa'], [('do',), ['re'], 'mi', ('do', 'do', 'do', 'do')]]
+['Y', 'O', 'N']
+{8, 2, 3, 5}
+>>> comprehensions_write()
+2*x +1
+[0, 1, 2, 3]
+[1, 3, 5, 7]
+
+
+Podzielniki 3
+[3, 5, 9, 8]
+[True, False, True, False]
+
+
+Zaczyna się na TA
+['TA_sam', 'TA_guido', 'student_poohbear', 'student_htiek']
+['sam', 'guido']
+
+
+Duże pierwsze litery
+['apple', 'orange', 'pear']
+['A', 'O', 'P']
+
+
+Jeżeli jest litera 'p'
+['apple', 'orange', 'pear']
+['apple', 'pear']
+
+
+Owoc z jego długością krotka
+['apple', 'orange', 'pear']
+[('apple', 5), ('orange', 6), ('pear', 4)]
+
+
+Owoc z jego długością (słownik)
+['apple', 'orange', 'pear']
+{'apple': 5, 'pear': 4, 'orange': 6}
 >>> 
