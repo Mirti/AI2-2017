@@ -74,7 +74,9 @@ linear_merge
   OK  got: ['aa', 'aa', 'aa', 'bb', 'bb'] expected: ['aa', 'aa', 'aa', 'bb', 'bb']
 >>> 
 
+
 Lab1.py i Lab2.py (Początkowe zadania pokrywają się)
+
 Python 3.5.0 (v3.5.0:374f501f4567, Sep 13 2015, 02:16:59) [MSC v.1900 32 bit (Intel)] on win32
 Type "copyright", "credits" or "license()" for more information.
 >>> 
