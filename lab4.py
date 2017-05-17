@@ -55,7 +55,35 @@ def alpha_score(upper_letters):
 alpha_score('ABC')  # => 6 = 1 ('A') + 2 ('B') + 3 ('C')
 
 def two_best(words):
-    pass 
+    words.sort(key=lambda word: alpha_score(filter(str.isupper, word)), reverse=True)
+    return words[:2]
 
-two_best(['hEllO', 'wOrLD', 'i', 'aM', 'PyThOn'])
-    
+def test_two_best():
+    print(two_best(['hEllO', 'wOrLD', 'i', 'aM', 'PyThOn']))
+
+
+def float_Control(score):
+    if score == 1:
+        return "Winner"
+    elif score == -1:
+        return "Loser"
+    else:
+        return "Tied"
+
+def replace_Return(*args):
+  echo = lambda arg: arg  # In practice, you should never bind lambdas to local names
+  cond_fn = lambda x: (x==1 and echo("one")) \
+                 or (x==2 and echo("two")) \
+                 or (echo("other"))
+
+def replace_Loop(lst,func):
+  map(func,lst)
+
+
+def iterator_Consumption():
+  it = iter(range(100))
+  print(67 in it)  # => True
+  print(next(it))  # => 68
+  (37 in it)  # => Error
+  (next(it))  # => StopIteration
+  
