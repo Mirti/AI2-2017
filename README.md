@@ -317,3 +317,32 @@ options: {'a': [4, 5], 'b': 'x'}
 | artist_fullname | Taylor $wift |
 |           album |     1989     |
 ==================================
+
+
+LAB4.py
+
+>>> alpha_score("ABC")
+6
+
+>>> two_best(["slowo","wyraz","wyrazenie"])
+['slowo', 'wyraz']
+
+>>> test_two_best()
+['PyThOn', 'wOrLD']
+
+>>> float_Control(1)
+'Winner'
+>>> float_Control(-1)
+'Loser'
+>>> float_Control(5)
+'Tied'
+
+>>> iterator_Consumption()
+True
+68
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    iterator_Consumption()
+  File "C:/Python zadania/lab4.py", line 88, in iterator_Consumption
+    (next(it))  # => StopIteration
+StopIteration
