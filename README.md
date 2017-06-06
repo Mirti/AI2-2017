@@ -346,3 +346,37 @@ Traceback (most recent call last):
   File "C:/Python zadania/lab4.py", line 88, in iterator_Consumption
     (next(it))  # => StopIteration
 StopIteration
+
+
+LAB5.py
+
+>>> from lab5 import Course
+>>> stanford_python = Course("CS","41","hap.py code: The python programming language")
+
+>>> stanford_python.title
+'hap.py coder: the python programming language'
+>>> stanford_python.number
+41
+>>>
+>>> from lab5 import Course, CSCourse
+>>> a = Course("CS", "106A", "Programming Methodology")
+>>> b = CSCourse("CS", "106B", "Programming Abstractions")
+>>> type(a)
+<class 'lab5.Course'>
+>>> isinstance(a,Course)
+True
+>>> isinstance(b,Course)
+True
+>>> type(a) == type(b)
+False
+>>> a ==b
+False
+
+>>> cs106a = Course("CS", "106A", "Programming Methodology")
+>>> cs106b = CSCourse("CS", "106B", "Programming Abstractions")
+>>> cs107 = CSCourse("CS", "107", "Computer Organzation and Systems")
+>>> cs110 = CSCourse("CS", "110", "Principles of Computer Systems")
+>>> cs110 > cs106b
+True
+>>> cs107 > cs110
+False
