@@ -321,6 +321,47 @@ options: {'a': [4, 5], 'b': 'x'}
 
 LAB4.py
 
+>>> test_lambda()
+25
+24
+py
+
+>>> test_map()
+[22, 51966, 42]
+[12, -2, 0]
+[5, 5]
+['olleh', 'dlrow']
+[(2, 4, 8), (3, 9, 27), (4, 16, 64), (5, 25, 125)]
+[6, 15, 28]
+
+>>> test_filter()
+['12', '0']
+['world']
+['Stanford']
+[0, 3, 5, 6, 9, 10, 12, 15, 18]
+
+>>> gcd(84,16)
+4
+
+>>> lcm(4,7,3)
+84.0
+
+>>> fact(5)
+120
+
+>>> test_operator()
+3
+30
+8
+2
+
+>>> test_ord()
+apple
+['cabbage', 'apple', 'pear', 'bananas']
+cabbage
+bananas
+
+
 >>> alpha_score("ABC")
 6
 
@@ -347,6 +388,49 @@ Traceback (most recent call last):
     (next(it))  # => StopIteration
 StopIteration
 
+>>> test_itertools()
+('X', 'K'), ('X', 'C'), ('X', 'D'), ('K', 'X'), ('K', 'C'), ('K', 'D'), ('C', 'X'), ('C', 'K'), ('C', 'D'), ('D', 'X'), ('D', 'K'), ('D', 'C'), LOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLOLTraceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    test_itertools()
+  File "C:/Python zadania/lab4.py", line 96, in test_itertools
+    print(el, end='')  # Don't run this one. Why not?
+KeyboardInterrupt
+
+>>> dot_product([1, 3, 5], [2, 4, 6])
+44
+
+>>> test_transpose()
+((1, 5, 9), (2, 6, 10), (3, 7, 11), (4, 8, 12))
+
+>>> generate_triangles()
+<generator object generate_triangles at 0x0000000003153308>
+
+>>> primes_under(1000)
+<generator object primes_under at 0x00000000030D3308>
+
+<function outer.<locals>.inner at 0x00000000032C52F0>
+<function outer.<locals>.inner at 0x00000000032C5378>
+>>> outer()>>> generate_triangles()
+<generator object generate_triangles at 0x0000000003153308>
+>>>
+===================== RESTART: C:/Python zadania/lab4.py =====================
+>>> primes_under(1000)
+<generator object primes_under at 0x00000000030D3308>
+
+>>> test_make_adder()
+<function make_adder.<locals>.add_n at 0x0000000003144378>
+<function make_adder.<locals>.add_n at 0x0000000003144400>
+
+>>> foo()>>> test_make_adder()
+<function make_adder.<locals>.add_n at 0x0000000003144378>
+<function make_adder.<locals>.add_n at 0x0000000003144400>
+
+>>> test_outer()
+[1, 2, 3, 1, 2, 3, 1, 2, 3]
+[1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4]
+
+>>> print_args(outer(1))
+<function print_args.<locals>.wrapper at 0x00000000030D99D8>
 
 LAB5.py
 
@@ -380,3 +464,4 @@ False
 True
 >>> cs107 > cs110
 False
+
